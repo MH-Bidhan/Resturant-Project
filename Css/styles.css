@@ -27,6 +27,7 @@ body {
   font-size: 3.5rem;
   color: var(--color-secondary);
   font-family: aachen_btroman;
+  line-height: 1.1;
 }
 
 h1 {
