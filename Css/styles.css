@@ -8,3 +8,55 @@
   --color-background: #1d1d23;
   --color-footer: #35353b;
 }
+
+/* Typography */
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "aachen_btroman";
+  src: url("/Fonts/aachenn-webfont.woff2") format("woff2"),
+    url("/Fonts/aachenn-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-size: 3.5rem;
+  color: var(--color-secondary);
+  font-family: aachen_btroman;
+}
+
+h1 {
+  font-size: 6.5rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+.paragraph-secondary {
+  font-size: 2.5rem;
+}
+
+.paragraph-detailed {
+  font-size: 1.6rem;
+}
+
+.heading-primary {
+  color: var(--color-primary);
+}
+
+.heading-secondary {
+  color: var(--color-secondary);
+}
