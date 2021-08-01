@@ -1,0 +1,10 @@
+/* Color Pallet */
+
+:root {
+  --color-primary: #e58f00;
+  --color-secondary: #fff;
+  --color-accent: #e7e6e6;
+  --color-transperent: #28282d;
+  --color-background: #1d1d23;
+  --color-footer: #35353b;
+}
