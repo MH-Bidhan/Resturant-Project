@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* Color Pallet */
 
 :root {
@@ -24,10 +30,11 @@ html {
 }
 
 body {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: var(--color-secondary);
   font-family: aachen_btroman;
   line-height: 1.1;
+  background-color: var(--color-background);
 }
 
 h1 {
@@ -102,10 +109,30 @@ h4 {
 
 .list__item {
   padding-right: 3rem;
+  text-transform: uppercase;
 }
 
 /* Icons */
 
 .icon {
   padding-right: 3rem;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+/* Navigation Bar */
+
+.nav {
+  font-size: 1.6rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav__logo {
+  padding: 0 15%;
 }
