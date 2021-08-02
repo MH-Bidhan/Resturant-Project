@@ -101,6 +101,7 @@ h4 {
 
 .list {
   list-style: none;
+  padding: 0;
 }
 
 .list__inline {
@@ -108,7 +109,7 @@ h4 {
 }
 
 .list__item {
-  padding-right: 3rem;
+  padding: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -137,4 +138,23 @@ a {
 .btn__primary {
   background-color: var(--color-primary);
   color: var(--color-transperent);
+}
+
+/* Navigation Bar */
+
+.nav {
+  font-size: 1.6rem;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.nav__logo {
+  padding: 0 15%;
+}
+
+.nav .list {
+  justify-content: space-between;
+  align-items: center;
 }
