@@ -124,15 +124,3 @@ a {
   text-decoration: none;
   color: var(--color-secondary);
 }
-
-/* Navigation Bar */
-
-.nav {
-  font-size: 1.6rem;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.nav__logo {
-  padding: 0 15%;
-}
