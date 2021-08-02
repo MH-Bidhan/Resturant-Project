@@ -101,5 +101,11 @@ h4 {
 }
 
 .list__item {
-  padding: 3rem;
+  padding-right: 3rem;
+}
+
+/* Icons */
+
+.icon {
+  padding-right: 3rem;
 }
