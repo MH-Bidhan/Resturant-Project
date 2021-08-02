@@ -89,3 +89,17 @@ h4 {
   width: 100%;
   max-height: auto;
 }
+
+/* List */
+
+.list {
+  list-style: none;
+}
+
+.list__inline {
+  display: flex;
+}
+
+.list__item {
+  padding: 3rem;
+}
