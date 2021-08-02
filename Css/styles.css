@@ -61,3 +61,31 @@ h4 {
 .heading-secondary {
   color: var(--color-secondary);
 }
+
+/* Grid */
+
+.grid {
+  display: grid;
+}
+
+.grid__1x2 {
+  grid-template-columns: repeat(2, auto);
+  column-gap: 3rem;
+}
+
+.grid__1x3 {
+  grid-template-columns: repeat(3, auto);
+  column-gap: 3rem;
+}
+
+.grid__2x3 {
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, auto);
+  row-gap: 3rem;
+  column-gap: 3rem;
+}
+
+.grid__image {
+  width: 100%;
+  max-height: auto;
+}
