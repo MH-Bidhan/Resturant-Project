@@ -175,6 +175,12 @@ a {
   align-items: center;
 }
 
+@media screen and (max-width: 1400px) {
+  .nav {
+    max-width: 900px;
+  }
+}
+
 /* Hero Section */
 
 .header {
@@ -199,4 +205,10 @@ a {
 
 .hero .paragraph-secondary {
   margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .hero {
+    padding: 7rem 0;
+  }
 }
