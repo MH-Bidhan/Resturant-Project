@@ -18,7 +18,7 @@
 /* Container */
 
 .container {
-  max-width: 1200px;
+  max-width: 80vw;
   margin: 0 auto;
 }
 
@@ -46,26 +46,32 @@ body {
 
 h1 {
   font-size: 6.5rem;
+  margin-bottom: 4rem;
 }
 
 h2 {
   font-size: 5rem;
+  margin-bottom: 3rem;
 }
 
 h3 {
   font-size: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 h4 {
   font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .paragraph-secondary {
   font-size: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .paragraph-detailed {
   font-size: 1.6rem;
+  margin-bottom: 2rem;
 }
 
 .heading-primary {
@@ -140,7 +146,9 @@ a {
   padding: 2rem 3rem;
   border-radius: 7px;
   outline: 0;
-  border: 0;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 3rem 0;
 }
 
 .btn__primary {
@@ -173,6 +181,10 @@ a {
   position: relative;
 }
 
+.hero {
+  padding: 15rem 0;
+}
+
 .background-image {
   width: 100%;
   position: absolute;
@@ -182,5 +194,9 @@ a {
 }
 
 .hero__image-grid {
-  max-width: 600px;
+  max-width: auto;
+}
+
+.hero .paragraph-secondary {
+  margin-bottom: 6rem;
 }
