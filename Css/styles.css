@@ -266,3 +266,17 @@ a {
   left: -5%;
   bottom: 5%;
 }
+
+/* Gallery Block */
+
+.block-gallery {
+  text-align: center;
+}
+
+.block-gallery .heading-secondary {
+  margin-bottom: 8rem;
+}
+
+.gallery-image {
+  border: 1px solid var(--color-primary);
+}
