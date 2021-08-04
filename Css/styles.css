@@ -22,6 +22,12 @@
   margin: 0 auto;
 }
 
+/* Blocks */
+
+.block {
+  margin-bottom: 10rem;
+}
+
 /* Typography */
 
 html {
@@ -89,7 +95,7 @@ h4 {
 }
 
 .grid__1x2 {
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 3rem;
 }
 
@@ -182,33 +188,3 @@ a {
 }
 
 /* Hero Section */
-
-.header {
-  position: relative;
-}
-
-.hero {
-  padding: 15rem 0;
-}
-
-.background-image {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  opacity: 0.2;
-}
-
-.hero__image-grid {
-  max-width: auto;
-}
-
-.hero .paragraph-secondary {
-  margin-bottom: 6rem;
-}
-
-@media screen and (max-width: 1400px) {
-  .hero {
-    padding: 7rem 0;
-  }
-}
