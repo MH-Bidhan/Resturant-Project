@@ -182,6 +182,20 @@ a {
   color: var(--color-transperent);
 }
 
+/* Menu  */
+.menu {
+  text-align: center;
+}
+
+.menu__image {
+  /* width: 100%; */
+  object-fit: cover;
+}
+
+.menu h3 {
+  text-transform: uppercase;
+}
+
 /* Navigation Bar */
 
 .nav {
