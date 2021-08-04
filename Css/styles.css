@@ -224,3 +224,45 @@ a {
     padding: 15rem 0;
   }
 }
+
+/* Feature Block */
+
+.feature-bg {
+  background: url(/Images/feature\ block.svg);
+  height: 120vw;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-content {
+  width: 50rem;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+.feature-image {
+  width: 60%;
+  height: auto;
+  position: absolute;
+  bottom: 9rem;
+  right: -1%;
+  transform: rotateZ(35deg);
+}
+
+.feature-image-woffle {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  right: -23%;
+}
+
+.feature-image-egg {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  left: -5%;
+  bottom: 5%;
+}
