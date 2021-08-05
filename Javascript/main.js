@@ -1,0 +1,1 @@
+alert('This is a page build specifically for screens avove (1440px) width, Smaller size design was not available')
