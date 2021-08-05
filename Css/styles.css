@@ -158,6 +158,7 @@ h4 {
 
 .icon {
   padding-right: 3rem;
+  width: 7rem;
 }
 
 /* Links */
@@ -351,4 +352,26 @@ a {
     max-height: 20rem;
     overflow: scroll;
   }
+}
+
+/* Footer */
+
+.footer {
+  background: var(--color-footer);
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  padding: 10rem 0;
+}
+
+.footer .container {
+  text-align: center;
+}
+
+.footer__logo {
+  width: 30%;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
 }
