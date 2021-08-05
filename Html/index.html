@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="/Css/styles.css" />
     <link rel="stylesheet" href="/Css/normalize.css" />
   </head>
@@ -34,7 +35,7 @@
         </nav>
 
         <!-- Hero -->
-        <section class="container hero">
+        <section data-aos="fade-up" class="container hero">
           <div class="grid grid__1x2">
             <img
               src="/Images/waffle.png"
@@ -57,7 +58,7 @@
     </header>
     <!-- About Us Section -->
 
-    <section class="container block block__about-us">
+    <section data-aos="zoom-in" class="container block block__about-us">
       <div class="grid grid__1x2">
         <img class="grid__image" src="/Images/set 1.png" alt="Breakfast Set" />
         <div>
@@ -76,11 +77,12 @@
     <section class="block block__feature">
       <div class="bg-image feature-bg">
         <img
+          data-aos="fade-left"
           class="feature-image-waffle"
           src="/Images/waffle without tray.png"
           alt="A plate of waffle and fruits"
         />
-        <div class="feature-content">
+        <div data-aos="fade-right" class="feature-content">
           <h2 class="heading-secondary">Our Food Quality</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -90,11 +92,13 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           class="feature-image"
           src="/Images/egg and toasts.png"
           alt="A plate of fried egg and toast with coffe"
         />
         <img
+          data-aos="fade-right"
           class="feature-image-egg"
           src="/Images/egg and fruits.png"
           alt="A plate of boiled egg and fruits"
@@ -103,7 +107,7 @@
     </section>
     <!-- Gallery Block -->
 
-    <section class="container block block-gallery">
+    <section data-aos="zoom-in-up" class="container block block-gallery">
       <h2 class="heading-secondary">Our Food Gallery</h2>
       <div class="grid grid__2x3">
         <img
@@ -142,7 +146,7 @@
 
     <section class="bg-image block block__greet">
       <img class="block__greet-bg" src="/Images/Background 1.png" alt="" />
-      <div class="block__greet-content">
+      <div data-aos="flip-up" class="block__greet-content">
         <h2>Enjoy Our Food</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -158,7 +162,7 @@
       <div class="grid grid__1x3">
         <!-- Menu 1 -->
 
-        <div class="menu">
+        <div data-aos="fade-right" class="menu">
           <img
             class="menu__image"
             src="/Images/Feature Menu/menu 1.png"
@@ -174,7 +178,7 @@
         </div>
         <!-- Menu 2 -->
 
-        <div class="menu">
+        <div data-aos="fade-up" class="menu">
           <img
             class="menu__image"
             src="/Images/Feature Menu/menu 2.png"
@@ -190,7 +194,7 @@
         </div>
         <!-- Menu 3 -->
 
-        <div class="container menu">
+        <div data-aos="fade-left" class="menu">
           <img
             class="menu__image"
             src="/Images/Feature Menu/menu 3.png"
@@ -208,7 +212,7 @@
     </section>
     <!-- Showcase Section -->
 
-    <section class="block__showcase">
+    <section data-aos="zoom-in-right" class="block__showcase">
       <div class="container">
         <div class="showcase__group grid grid__1x2">
           <img
@@ -254,5 +258,9 @@
       </div>
     </section>
     <script src="/Javascript/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
