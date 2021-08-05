@@ -152,6 +152,11 @@ h4 {
 .list__item {
   padding: 1.5rem;
   text-transform: uppercase;
+  transition: transform 0.15s ease-in;
+}
+
+.list__item:hover {
+  transform: scale(1.2);
 }
 
 /* Icons */
@@ -159,6 +164,11 @@ h4 {
 .icon {
   padding-right: 3rem;
   width: 7rem;
+  transition: transform 0.15s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
 }
 
 /* Links */
@@ -181,6 +191,11 @@ a {
 .btn__primary {
   background-color: var(--color-primary);
   color: var(--color-transperent);
+}
+
+.btn__primary:hover {
+  transition: 0.15s ease-in;
+  background-color: orange;
 }
 
 /* Menu  */
