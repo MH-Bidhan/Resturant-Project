@@ -335,3 +335,20 @@ a {
 .block__menu .grid {
   align-items: baseline;
 }
+
+/* Showcase Block */
+
+.block__showcase {
+  background: var(--color-primary);
+  max-height: 55rem;
+  height: 30vw;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 970px) {
+  .showcase__content {
+    max-height: 20rem;
+    overflow: scroll;
+  }
+}
